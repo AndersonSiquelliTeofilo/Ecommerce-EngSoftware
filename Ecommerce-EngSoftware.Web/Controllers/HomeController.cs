@@ -27,6 +27,12 @@ namespace ecommerce_EngSoftware.Controllers
         }
 
         [AllowAnonymous]
+        public IActionResult About()
+        {
+            return View();
+        }
+
+        [AllowAnonymous]
         public IActionResult Privacy()
         {
             return View();
